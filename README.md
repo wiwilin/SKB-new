@@ -1,2 +1,5 @@
 # SKB
-# SKB-new
+
+gfortran skb.f -o skb
+
+./skb
