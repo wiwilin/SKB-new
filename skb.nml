@@ -20,7 +20,7 @@
  isrc = 3
  idirect = 1   
  ifsurf  = 0    
- modfile = "skb30.mod"
+ modfile = "skb50.mod"
  logfile = "skb_3.log"
  datfilp = "skbp_3.dat"
  datfilx = "skbx_3.dat"
