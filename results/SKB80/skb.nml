@@ -1,0 +1,37 @@
+ &userpar
+ nl = 199 
+ nt = 1024
+ tl = 0.1
+ t0 = -0.005
+ fpeak = 1000  !peak frequecy has to satisfy Niquist creteria
+ zs0 = 2.320
+ nx = 1      
+ xmin = 0.
+ xmax = 0.
+ ny = 1
+ ymin = 0.0
+ ymax = 0.0
+ nz = 26
+ zmin = 2.330
+ zmax = 2.550
+ /
+
+ &morepar
+ isrc = 3
+ idirect = 1   
+ ifsurf  = 0    
+ modfile = "skb80.mod"
+ logfile = "skb_3.log"
+ datfilp = "skbp_3.dat"
+ datfilx = "skbx_3.dat"
+ datfily = "skby_3.dat"
+ datfilz = "skbz_3.dat"
+ nk = 5000  ! maximum wave number
+ ix0 = 0
+ iy0 = 0
+ iz0 = 1
+ xl  = 0.
+ eps = 0.
+ fimag = 0.
+ fref  = 0.
+ /
